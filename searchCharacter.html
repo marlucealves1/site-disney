@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body class="background-disney">
+    <header>
+        <a href="../index.html"><img class="logo" src="../images/disney-logo.png" alt="logo Disney"></a>
+        <nav>
+            <ul>
+                <li id="nav-button"><a href="./characters.html">Personagens</a></li>
+                <li><a href="./searchCharacter.html">Procurar Personagens</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-search">
+        <span id="options-select">
+            <select name="search" id="search">
+                <option id="choice" value="choice">Escolha o seu personagem</option>
+            </select>
+            <button id="send">Gerar informações</button>
+        </span>
+        <section class="character-box display2" id="container-search">
+            <img src="" alt="" id="img-search">
+            <span class="info-span">Nome - <span id="name-search"></span></span>
+            <span class="info-span">Filmes - <span id="films-search"></span></span>
+            <span class="info-span">Pequenos Filmes - <span id="shortFilms-search"></span></span>
+            <span class="info-span">Séries - <span id="tvShows-search"></span></span>
+            <span class="info-span">VideoGames - <span id="videoGames-search"></span></span>
+        </section>
+    </main>
+    <script src="../js/search.js"></script>
+</body>
+</html>
